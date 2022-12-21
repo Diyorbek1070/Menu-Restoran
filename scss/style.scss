@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4499FE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size:18px;
+    line-height: 21.78px;
+}
+
+:root{
+    --main-color: rgba(119, 119, 119, 1);
+    --main-size:18px;
+    --main-border:10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+.container__heading{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 44px;
+}
+
+.container__form{
+    gap: 32px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 47px;
+}
+.form__btn{
+    background-color: rgba(29, 231, 85, 1);
+    padding: 10px 30px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+.form__btn:hover{
+ background-color:rgb(17, 81, 35) ;
+}
+.input-food-name{
+    width: 297px;
+    height: 55px;
+    color: var(--main-color);
+    font-size: var(--main-size);
+    padding-left: 17px;
+    border-radius: var(--main-border);
+    border: none;
+}
+.input-food-price{
+    width: 297px;
+    height: 55px;
+    color: var(--main-color);
+    font-size: var(--main-size);
+    padding-left: 17px;
+    border-radius: var(--main-border);
+    border: none;
+}
+.input-food-img{
+    width: 297px;
+    height: 55px;
+    color: var(--main-color);
+    font-size: var(--main-size);
+    padding-left: 17px;
+    border-radius: var(--main-border);
+    border: none;
+}
+.input-food-cook{
+    width: 297px;
+    height: 55px;
+    color: var(--main-color);
+    font-size: var(--main-size);
+    padding-left: 17px;
+    border-radius: var(--main-border);
+    border: none;
+}
+.input-restaurant{
+    width: 622px;
+    height: 55px;
+    color: var(--main-color);
+    font-size: var(--main-size);
+    padding-left: 17px;
+    border-radius: var(--main-border);
+    border: none;
+}
+
+.container__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    li{
+        list-style-type: none;
+        display: flex;
+        gap: 0px 20px;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 10px;
+        position: relative;
+        img{
+            width: 300px;
+            border-radius:10px ;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            background-color: rgb(177, 49, 49);
+            color: #FFFFFF;
+            width: 100px;
+            height: 50px;
+            border: none;
+            margin-left:300px;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+}
